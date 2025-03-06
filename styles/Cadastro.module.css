@@ -25,6 +25,10 @@
     gap: 0.7rem;
 }
 
+.login h3 {
+    font-size: 0.9rem;
+}
+
 .cadastro {
     border: 0px;
     background: none;

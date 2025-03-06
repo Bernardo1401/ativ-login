@@ -1,0 +1,14 @@
+.input {
+    background-color: rgb(0, 0, 0);
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 6px 0;
+    width: 35vh;
+    height: 3vh;
+}
+
+.input:hover {
+    transform: scale(105%);
+    transition: all 0.3 ease-in;
+}

@@ -13,7 +13,7 @@
     height: 40vh;
     width: 50vh;
     border-radius: 10px;
-    background: rgba(209, 209, 209, 0.7);
+    background: rgba(255, 255, 255, 0.5);
     color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;

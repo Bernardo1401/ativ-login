@@ -13,8 +13,8 @@ export default function Cadastro() {
             <h1>CADASTRO</h1>
             <h3>Crie ja sua conta e aproveite ao maximo</h3>
             <Input tipo="text" text="Username" />
-            <Input tipo="password" text="Password" />
-            <Input tipo="password" text="Confirm Password" />
+            <Input id="password" tipo="password" text="Password" />
+            <Input id="confirmPass" tipo="password" text="Confirm Password" />
             <button className={styles.button} onClick={() => router.push("/")}>Cadastre-se</button>
             <nav>
                 <p>Já tem uma conta? <button className={styles.cadastro} onClick={() => router.push("/")}> Faça login</button></p>

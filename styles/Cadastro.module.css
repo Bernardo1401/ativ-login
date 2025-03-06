@@ -47,3 +47,33 @@
     transform: scale(105%);
     transition: all 0.3s ease-in;
 }
+
+@media (max-width: 425px) {
+    .container {
+        height: auto;
+        padding: 20px;
+    }
+
+    .login {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .button {
+        width: 80%;
+        height: 5vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .login {
+        width: 70%;
+        height: auto;
+    }
+
+    .button {
+        width: 60%;
+        height: 4vh;
+    }
+}

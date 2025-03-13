@@ -4,12 +4,12 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-image: url(../public/image.png);
+    background-image: url(../../public/image.png);
     background-size: cover;
 }
 
 .perfil {
-    height: 90vh;
+    height: 80vh;
     width: 70vh;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.5);

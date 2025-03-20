@@ -13,17 +13,17 @@ export default function Cadastro() {
     const [error, setError] = useState(null);
 
     const handleCheck = () => {
-        if (input1 !== input2) {
-            setMatch(false);
-            setError("As senhas não coincidem");
-        }
-        else if (input1.length === 0) {
+        if (input1 == "") {
             setMatch(false);
             setError("Preencha o campo de senha");
         }
-        else if (input2.length === 0) {
+        else if (input2 == "") {
             setMatch(false);
             setError("Preencha o campo de repetir senha");
+        }
+        else if (input1 !== input2) {
+            setMatch(false);
+            setError("As senhas não coincidem");
         }
         else {
             setMatch(true);

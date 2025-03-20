@@ -43,34 +43,3 @@
     transform: scale(105%);
     transition: all 0.3s ease-in;
 }
-@media (max-width: 425px) {
-    .container {
-        padding: 10px;
-    }
-
-    .login {
-        width: 90%;
-        height: auto;
-    }
-
-    .button {
-        width: 80%;
-        height: 5vh;
-    }
-}
-
-@media (min-width: 426px) and (max-width: 1024px) {
-    .container {
-        padding: 20px;
-    }
-
-    .login {
-        width: 60%;
-        height: auto;
-    }
-
-    .button {
-        width: 60%;
-        height: 4vh;
-    }
-}
